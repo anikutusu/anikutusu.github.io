@@ -1,0 +1,120 @@
+html {
+  background-color: #fff;
+  font-size: 16px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  min-width: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: #222;
+}
+
+a {
+  color: #1E88E5;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: none 86ms ease-out;
+  transition: none 86ms ease-out;
+}
+
+.btn {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: .75rem;
+  height: 2.25em;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  line-height: 1;
+  padding-bottom: calc(0.375em - 1px);
+  padding-left: calc(0.625em - 1px);
+  padding-right: calc(0.625em - 1px);
+  padding-top: calc(0.375em - 1px);
+  position: relative;
+  vertical-align: top;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: white;
+  border-color: #dbdbdb;
+  color: #363636;
+  cursor: pointer;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  text-align: center;
+  white-space: nowrap;
+}
+.btn.is-outlined {
+  background-color: transparent;
+  border-color: #3273dc;
+  color: #3273dc;
+}
+
+.btn.is-outlined:hover {
+  background-color: #3273dc;
+  border-color: #3273dc;
+  color: #fff;
+}
+
+.content {
+  background-image: url('/public/images/anikutusu.png');
+  width: 1185px;
+  height: 940px;
+  margin: 0 auto;
+}
+
+.instagram-profile {
+  position: relative;
+  top: 509px;
+  left: 20px;
+  width: 865px;
+  height: 371px;
+  padding: 40px 140px 0;
+  background-image: url('/public/images/topography.png');
+}
+
+.instagram-profile .name {
+  margin-left: 80px;
+  background-repeat: no-repeat;
+  background-size: 35px;
+  color: #999;
+}
+.instagram-profile .name .account-link {
+  color: #222;
+}
+.instagram-profile .iglogo {
+  position: absolute;
+  top: 54px;
+  height: 46px;
+}
+
+.instagram-profile .name .btn {
+  margin-left: 200px;
+}
+
+.instagram-profile .info {
+  padding: 0 80px 0;
+  margin: 10px 0 10px;
+}
+.instagram-profile .info span {
+  margin-right: 15px;
+}
